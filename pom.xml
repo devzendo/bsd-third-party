@@ -5,7 +5,7 @@
   <artifactId>BsdThirdParty</artifactId>
   <name>Third party code snippets under the BSD license</name>
   <packaging>jar</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <url>http://devzendo.org/bsdthirdparty</url>
   <description>Small snippets of code released under the BSD license
   used by DevZendo.org projects</description>
