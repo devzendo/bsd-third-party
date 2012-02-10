@@ -5,14 +5,14 @@
   <artifactId>BsdThirdParty</artifactId>
   <name>Third party code snippets under the BSD license</name>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <url>http://devzendo.org/bsdthirdparty</url>
   <description>Small snippets of code released under the BSD license
   used by DevZendo.org projects</description>
   
   <parent>
-  	<groupId>org.devzendo</groupId>
+    <groupId>org.devzendo</groupId>
     <artifactId>GroupParent</artifactId>
-	<version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 </project>
