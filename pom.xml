@@ -1,18 +1,50 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.devzendo</groupId>
-  <artifactId>BsdThirdParty</artifactId>
-  <name>Third party code snippets under the BSD license</name>
-  <packaging>jar</packaging>
-  <version>1.0.1</version>
-  <url>http://devzendo.org/bsdthirdparty</url>
-  <description>Small snippets of code released under the BSD license
-  used by DevZendo.org projects</description>
-  
-  <parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <groupId>org.devzendo</groupId>
-    <artifactId>GroupParent</artifactId>
-    <version>1.0.1</version>
-  </parent>
+    <artifactId>BsdThirdParty</artifactId>
+    <name>Third party code snippets under the BSD license</name>
+    <packaging>jar</packaging>
+    <version>1.0.2-SNAPSHOT</version>
+    <url>http://devzendo.org/bsdthirdparty</url>
+    <description>Small snippets of code released under the BSD license
+        used by DevZendo.org projects
+    </description>
+    <url>http://www.devzendo.org/content/bsdthirdparty</url>
+
+    <organization>
+        <name>DevZendo.org</name>
+        <url>http://devzendo.org/</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>http://devzendo-org-bsdthirdparty.googlecode.com/hg/</url>
+        <connection>scm:hg:http://devzendo-org-bsdthirdparty.googlecode.com/hg/
+        </connection>
+        <developerConnection>
+            scm:hg:https://devzendo-org-bsdthirdparty.googlecode.com/hg/
+        </developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>matt.gumbley</id>
+            <name>Matt Gumbley</name>
+            <email>matt.gumbley@devzendo.org</email>
+        </developer>
+    </developers>
+
+    <parent>
+        <groupId>org.devzendo</groupId>
+        <artifactId>GroupParent</artifactId>
+        <version>1.0.3</version>
+    </parent>
+
 </project>
