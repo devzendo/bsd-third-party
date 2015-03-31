@@ -3,14 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.devzendo</groupId>
-    <artifactId>BsdThirdParty</artifactId>
+    <artifactId>bsd-third-party</artifactId>
     <name>Third party code snippets under the BSD license</name>
     <packaging>jar</packaging>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <url>http://devzendo.org/bsdthirdparty</url>
     <description>Small snippets of code released under the BSD license
         used by DevZendo.org projects
     </description>
+
     <url>http://www.devzendo.org/content/bsdthirdparty</url>
 
     <organization>
@@ -26,11 +27,11 @@
         </license>
     </licenses>
     <scm>
-        <url>http://devzendo-org-bsdthirdparty.googlecode.com/hg/</url>
-        <connection>scm:hg:http://devzendo-org-bsdthirdparty.googlecode.com/hg/
+        <url>https://devzendo@bitbucket.org/devzendo/bsd-third-party</url>
+        <connection>scm:hg:https://devzendo@bitbucket.org/devzendo/bsd-third-party
         </connection>
         <developerConnection>
-            scm:hg:https://devzendo-org-bsdthirdparty.googlecode.com/hg/
+            scm:hg:https://devzendo@bitbucket.org/devzendo/bsd-third-party
         </developerConnection>
     </scm>
     <developers>
@@ -43,8 +44,8 @@
 
     <parent>
         <groupId>org.devzendo</groupId>
-        <artifactId>GroupParent</artifactId>
-        <version>1.0.3</version>
+        <artifactId>proup-parent</artifactId>
+        <version>1.1.0-SNAPSHOT</version>
     </parent>
 
 </project>
