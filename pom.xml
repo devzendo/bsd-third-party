@@ -27,11 +27,8 @@
     </licenses>
     <scm>
         <url>https://bitbucket.org/devzendo/bsd-third-party</url>
-        <connection>scm:hg:https://bitbucket.org/devzendo/bsd-third-party
-        </connection>
-        <developerConnection>
-            scm:hg:https://bitbucket.org/devzendo/bsd-third-party
-        </developerConnection>
+        <connection>scm:hg:https://bitbucket.org/devzendo/bsd-third-party</connection>
+        <developerConnection>scm:hg:https://bitbucket.org/devzendo/bsd-third-party</developerConnection>
     </scm>
     <developers>
         <developer>
